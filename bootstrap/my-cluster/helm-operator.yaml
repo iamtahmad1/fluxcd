@@ -1,0 +1,9 @@
+helm:
+  versions: v3
+git:
+  ssh:
+    secretName: flux-git-deploy
+configureRepositories:
+  repositories: 
+    - name: my-repo
+      url: https://iamtahmad1.github.io/helm-repo/

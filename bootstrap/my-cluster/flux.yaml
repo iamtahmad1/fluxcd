@@ -1,0 +1,6 @@
+git:
+  url: git@github.com:iamtahmad1/fluxcd.git
+  path: release/my-cluster
+  readonly: true
+registry:
+  excludeImage: "*"
