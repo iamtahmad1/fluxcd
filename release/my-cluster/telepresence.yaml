@@ -1,0 +1,11 @@
+apiVersion: helm.fluxcd.io/v1
+kind: HelmRelease
+metadata:
+  name: telepresence
+  namespace: flow
+spec:
+  releaseName: telepresence
+  chart:
+    repository: https://getambassador.io
+    name: ambassador
+    version: 6.9.3
